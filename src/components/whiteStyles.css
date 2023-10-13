@@ -1,0 +1,97 @@
+*::before, *::after{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    /* background: linear-gradient(to right, #00AAFF, #00FF6C); */
+
+}
+
+.calculator-grid{
+    display: grid;
+    margin-top: 2rem;
+    justify-content: center;
+    grid-template-columns: repeat(4, 6rem);
+    grid-template-rows: minmax(7rem, auto) repeat(5, 6rem);
+    border-radius: 20px;
+    background-color: rgb(167, 173, 173);  
+    grid-gap: 2px;
+    /* width: 350px; */
+}
+
+/* .buttons{
+    grif
+
+} */
+.calculator-grid > button{
+    cursor:pointer;
+    font-size: 2rem;
+    border: 1px solid white;
+    outline: none;
+    background-color: rgba(220, 217, 226, 0.75);
+     height: 100px;
+     /* width: 70px; */
+     /* border-radius: 360px; */
+    text-align: center;
+    padding: 20px;
+    border-color: rgb(151, 145, 145);
+    box-shadow: 0px 3px 15px 0px rgba(233, 223, 223, 0.05);
+    color: rgb(82, 85, 87);
+
+  }
+
+ .calculator-grid > button:hover,
+ .calculator-grid >button:focus{
+    background-color: rgba(255,255,255,.9);
+    color: rgb(44, 43, 43);
+ }
+.operators{
+    background-color: rgb(92, 154, 179) !important;
+    color: aliceblue !important;
+
+}
+.span-two{
+    grid-column: span 2;
+    /* background-color: black !important; */
+    color: rgb(223, 116, 74) !important;
+}
+
+.output{
+    grid-column: 1/-1;
+    background-color: #eee8e8bf;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+    padding: .75rem;
+    word-wrap: break-word;
+    word-break: break-all;
+    /* border-radius:50px; */
+    height: 170px;
+    font-size: 30px;
+    /* width: 350px; */
+      
+}
+
+#valueOutput{
+    background-color:transparent;
+    width: 350px;
+    height: 40px;
+    border: none;
+    color: rgb(82, 79, 76);
+    font-size: 30px;
+    text-align: right;
+    
+
+}
+
+.output .previous-operand{
+    color: rgba(255,255,255,.75);
+    font-size: 1.5rem;;
+}
+
+.output .current-operand{
+    color: white;
+    font-size: 2.5rem;;
+}
