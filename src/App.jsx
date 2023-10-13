@@ -7,7 +7,6 @@ function App() {
   return (
     <div className="App">
       <Wrapper />
-      {/* Other components or content go here */}
     </div>
   );
 }

@@ -4,8 +4,7 @@
 
 body{
     margin: 0;
-    /* background: linear-gradient(to right, #00AAFF, #00FF6C); */
-
+ 
 }
 
 .calculator-grid{
@@ -26,8 +25,7 @@ body{
     outline: none;
     background-color: rgba(63, 60, 70, 0.75);
      height: 90px;
-     /* width: 100px; */
-    text-align: center;
+     text-align: center;
     padding: 20px;
     border-color: rgb(44, 42, 42);
     box-shadow: 0px 3px 15px 0px rgba(233, 223, 223, 0.05);
@@ -55,8 +53,7 @@ body{
     padding: .75rem;
     word-wrap: break-word;
     word-break: break-all;
-    /* border-radius:50px; */
-    height: 170px;
+     height: 170px;
     font-size: 30px;
       
 }
