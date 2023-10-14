@@ -4,8 +4,8 @@
 
 body{
     margin: 0;
-    /* background: linear-gradient(to right, #00AAFF, #00FF6C); */
-
+    height: 10px;
+    overflow: hidden;
 }
 
 .calculator-grid{
@@ -17,13 +17,9 @@ body{
     border-radius: 20px;
     background-color: rgb(167, 173, 173);  
     grid-gap: 2px;
-    /* width: 350px; */
+   
 }
 
-/* .buttons{
-    grif
-
-} */
 .calculator-grid > button{
     cursor:pointer;
     font-size: 2rem;
@@ -31,8 +27,6 @@ body{
     outline: none;
     background-color: rgba(220, 217, 226, 0.75);
      height: 100px;
-     /* width: 70px; */
-     /* border-radius: 360px; */
     text-align: center;
     padding: 20px;
     border-color: rgb(151, 145, 145);
@@ -53,8 +47,7 @@ body{
 }
 .span-two{
     grid-column: span 2;
-    /* background-color: black !important; */
-    color: rgb(223, 116, 74) !important;
+     color: rgb(223, 116, 74) !important;
 }
 
 .output{
@@ -67,10 +60,9 @@ body{
     padding: .75rem;
     word-wrap: break-word;
     word-break: break-all;
-    /* border-radius:50px; */
     height: 170px;
     font-size: 30px;
-    /* width: 350px; */
+    
       
 }
 
